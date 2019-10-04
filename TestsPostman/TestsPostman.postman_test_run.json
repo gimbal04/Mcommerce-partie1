@@ -1,0 +1,235 @@
+{
+	"id": "316d5038-8750-4e16-b299-c911238d91bb",
+	"name": "TestsPostman",
+	"allTests": [],
+	"timestamp": "2019-10-04T14:47:28.987Z",
+	"collection_id": "b1ef1a59-2efb-4e63-ad4d-f60814ff569e",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "b1ef1a59-2efb-4e63-ad4d-f60814ff569e",
+		"name": "TestsPostman",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"7391307c-2e9b-4f1d-a4e6-d67e33430738",
+			"a67d7e4e-9839-4d90-8060-30e333771f92",
+			"1148d7e3-151b-42da-9252-e9364208698d"
+		],
+		"folders_order": [],
+		"owner": "3967070",
+		"favorite": false,
+		"protocolProfileBehavior": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "piv.password",
+			"value": "G9Zf4Om5I31u",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "adam.password",
+			"value": "wy0I2Pte6x9U",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "wit.password",
+			"value": "xEZiJ1cLwexr",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "witmobile.password",
+			"value": "l3Bm7X9RyiBe",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "debug.password",
+			"value": "J9izKL7XZqSg",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "apu.password",
+			"value": "6VH2uR2rNyO5",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "vocal.password",
+			"value": "3mUJ8ia3S9K",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "geoihm.password",
+			"value": "1Umd5TG0decD",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "snc.password",
+			"value": "QW9cqJ078IUq",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "eva.password",
+			"value": "25hTfGofJeP",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "emeraude.password",
+			"value": "9tQT4v3Rb8Tj",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "dr.password",
+			"value": "Cy3n4Midqie3",
+			"enabled": true,
+			"type": "text"
+		}
+	],
+	"results": [
+		{
+			"name": "localhost:9090/AdminProduits",
+			"id": "7391307c-2e9b-4f1d-a4e6-d67e33430738",
+			"url": "localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"115"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "115",
+			"totalRequestTime": "115",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/Produits/Trie",
+			"id": "a67d7e4e-9839-4d90-8060-30e333771f92",
+			"url": "localhost:9090/Produits/Trie",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"120"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "120",
+			"totalRequestTime": "120",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:9090/Produits",
+			"id": "1148d7e3-151b-42da-9252-e9364208698d",
+			"url": "localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"20"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "20",
+			"totalRequestTime": "20",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 255,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "localhost:9090/AdminProduits",
+			"id": "7391307c-2e9b-4f1d-a4e6-d67e33430738",
+			"url": "localhost:9090/AdminProduits",
+			"time": "2019-10-04T14:47:28.987Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/Produits/Trie",
+			"id": "a67d7e4e-9839-4d90-8060-30e333771f92",
+			"url": "localhost:9090/Produits/Trie",
+			"time": "2019-10-04T14:47:28.987Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:9090/Produits",
+			"id": "1148d7e3-151b-42da-9252-e9364208698d",
+			"url": "localhost:9090/Produits",
+			"time": "2019-10-04T14:47:28.987Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
