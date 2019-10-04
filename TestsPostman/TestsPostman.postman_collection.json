@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "b1ef1a59-2efb-4e63-ad4d-f60814ff569e",
+		"name": "TestsPostman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9090/AdminProduits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/AdminProduits",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"AdminProduits"
+					]
+				},
+				"description": "Partie 1 différence prix"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/Produits/Trie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/Produits/Trie",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Produits",
+						"Trie"
+					]
+				},
+				"description": "Partie 2 : Tri alphabetique par nom"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/Produits",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : 4,\n\t\"nom\" : \"Poney\",\n\t\"prix\" : 0,\n\t\"prixAchat\" : \"1000\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9090/Produits",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"Produits"
+					]
+				},
+				"description": "post produit avec vente à 0 donne erreur"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
