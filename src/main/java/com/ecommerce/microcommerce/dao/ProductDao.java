@@ -27,4 +27,6 @@ public interface ProductDao extends JpaRepository<Product, Integer> {
 
     @Query(value = "SELECT id, nom, prix, prix_achat FROM Product ORDER BY id ASC", nativeQuery = true)
     Stream<ProductLightProjection> findAllProductLightProjection();
+
+    List<Product> findAllByOrderByNomAsc();
 }
